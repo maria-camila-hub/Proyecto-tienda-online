@@ -1,4 +1,5 @@
-Proyecto Tienda Online / Tu Casa, Tu Estilo 
+Proyecto Tienda Online / Tu Casa, Tu Estilo
+ 
 Es una aplicación web desarrollada con **Spring Boot**, **MySQL**, **HTML**, **CSS** y **Java** **JavaScript**, que permite gestionar productos y categorías de una tienda de artículos para el hogar.
 Incluye un sistema de autenticación, operaciones CRUD completas y un carrito de compras funcional.
 
@@ -51,7 +52,8 @@ Abre la carpetaFrontend/
 Haz clic derecho sobre login.htmly selecciona Abrir con Live Server
 Alternativamente, puedes abrir el archivo directamente en tu navegador.
 Ingresa con:
-usuario: admin / contraseña:admin
+usuario: admin  
+contraseña:admin
 
 
 Desarrollado por **\María Camila Loaiza García** – Proyecto final | Junio 2025
