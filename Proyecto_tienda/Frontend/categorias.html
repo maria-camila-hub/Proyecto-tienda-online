@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Panel de Categorías - Tu Casa, Tu Estilo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body class="bg-pastel">
+
+<nav class="navbar navbar-expand-lg fixed-top shadow-sm">
+  <div class="container-fluid">
+    <a class="navbar-brand fw-bold pastel-rosa" href="#">Tu Casa, Tu Estilo</a>
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="productos.html">Productos</a></li>
+        <li class="nav-item"><a class="nav-link active" href="#">Categorías</a></li>
+        <li class="nav-item"><a class="nav-link pastel-danger" href="login.html">Cerrar sesión</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container" style="margin-top: 90px;">
+  <h2 class="mb-4 text-center pastel-rosa">Administración de Categorías</h2>
+  <div class="card mb-4 shadow-sm">
+    <div class="card-body">
+      <form id="formCategoria">
+        <div class="row g-3 align-items-end">
+          <div class="col-md-10">
+            <label class="form-label pastel-rosa">Nombre</label>
+            <input type="text" class="form-control" id="nombreCategoria" required>
+          </div>
+          <div class="col-md-2">
+            <button type="submit" class="btn btn-success w-100">Agregar</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <div class="table-responsive shadow-sm">
+    <table class="table table-hover align-middle">
+      <thead>
+        <tr><th>#</th><th>Nombre</th><th>Acciones</th></tr>
+      </thead>
+      <tbody id="tablaCategorias"></tbody>
+    </table>
+  </div>
+</div>
+
+<script src="js/categorias.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<footer class="text-center py-4 mt-5">
+  Proyecto desarrollado por María Camila Loaiza García - Junio 2025
+</footer>
+
+</body>
+</html>
